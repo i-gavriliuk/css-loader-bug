@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "Georgia";
+  src: url("./assets/fonts/Georgia-Regular.woff2") format("woff2"),
+       url('./assets/fonts/Georgia-Regular.woff') format("woff");
+}
+
+.first-div {
+  background-image: url("./assets/images/puppy.jpg");
+}
+
+.second-div {
+  background-image: url('./assets/images/puppy.jpg');
+}
+
+.third-div {
+  background-image: url(./assets/images/puppy.jpg);
+}
